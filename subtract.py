@@ -1,4 +1,5 @@
 import math
+
 def flip_bits(num):
     for i in range(int(math.log2(num)+1)):
         num = (num ^ (1 << i))
